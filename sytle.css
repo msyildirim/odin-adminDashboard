@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main {
+    display: grid;           
+    grid-template-columns: 11rem 4fr;
+
+}
+
+.navbar {
+    height: 100vh;
+    background-color: cornflowerblue;
+    padding: 1rem;
+    color: rgb(241, 236, 236);
+}
+
+ul.navbar-content-list, ul.navbar-setting-list{
+    list-style: none;
+    padding-left: 0px; 
+    margin: 2rem 0 4rem 0;
+    border: 1px solid black;  
+    font-size: 1rem;  
+    cursor: pointer;        
+}
+
+.navbar li {
+    padding-bottom: 1rem;
+}
